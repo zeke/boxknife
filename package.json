@@ -1,0 +1,23 @@
+{
+  "name": "boxknife",
+  "version": "0.0.0",
+  "description": "Cut open local package.json files and see what versions of node they're using.",
+  "main": "boxknife.js",
+  "dependencies": {
+    "semver": "~2.1.0",
+    "shelljs": "~0.1.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "npm",
+    "dependencies",
+    "semver"
+  ],
+  "preferGlobal": "true",
+  "bin" : { "boxknife" : "./boxknife.js" },
+  "author": "Zeke Sikelianos <zeke@sikelianos.com>",
+  "license": "MIT"
+}
